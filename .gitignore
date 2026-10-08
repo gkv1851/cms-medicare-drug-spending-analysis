@@ -1,0 +1,29 @@
+# Large Data Files (Exceeded GitHub 100MB limit)
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar.gz
+*.xls
+*.xlsx
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
