@@ -82,9 +82,40 @@ Total Spend ($B)
 * **180× Total Spend Surge**: Spending expanded from \$68.7M to over \$12.38B, driven by therapeutic adoption in Type 2 diabetes and cardio-metabolic indications.
 * **Dose Escalation Impact**: Spend per claim rose from **\$777.62 to \$1,246.26 (+60%)**, resulting from patients titrating up from starter doses (0.25 mg / 0.5 mg) to higher maintenance strengths (1.0 mg and 2.0 mg pens).
 
+### 3. HCP-Level Prescribing Analytics (Prescriber × Drug Grain)
+
+Moving from macro-market aggregates down to the clinician level, each record in the Medicare Part D Prescriber file represents a unique **Prescriber (NPI) × Drug** combination.
+
+#### Top HCP Prescribers for Ozempic (by Total Drug Cost, 2024)
+
+| NPI | Clinician | Specialty | State | Prescription Fills (`Tot_Clms`) | Standardized 30-Day Fills | Days Supply | Total Drug Cost | Patients (`Tot_Benes`) |
+| :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| `1578621702` | Angueira-Serrano, Eugenio | Endocrinology | FL | 5,444 | 6,188.2 | 177,103 | **\$5,821,520.40** | 885 |
+| `1619082625` | Ilyayeva, Stella | Internal Medicine | NY | 3,061 | 3,833.6 | 111,402 | **\$3,237,847.05** | 582 |
+| `1750502183` | Robles, Monica | Endocrinology | AL | 1,675 | 2,635.6 | 76,949 | **\$2,486,782.20** | 379 |
+| `1043659345` | Hassan, Syed | Endocrinology | TX | 1,506 | 2,488.8 | 72,847 | **\$2,378,390.17** | 380 |
+| `1275611360` | Saad, Bashar | Endocrinology | CA | 2,138 | 2,570.6 | 73,638 | **\$2,352,797.36** | 447 |
+| `1932337052` | Frey, Lane | Endocrinology | LA | 1,296 | 2,384.0 | 70,176 | **\$2,316,185.63** | 306 |
+| `1508838434` | Villanueva, Ronald | Endocrinology | NJ | 1,154 | 2,470.8 | 73,368 | **\$2,315,131.43** | 292 |
+| `1457458168` | Kowalyk, Stephan | Endocrinology | PA | 1,983 | 2,492.3 | 71,446 | **\$2,294,737.26** | 348 |
+| `1447258850` | Jayaraj, Kandaswamy | Endocrinology | TX | 1,321 | 2,238.4 | 65,570 | **\$2,092,812.88** | 301 |
+| `1184745143` | Burtch, Brian | Endocrinology | OH | 1,281 | 2,127.3 | 62,269 | **\$2,021,080.30** | 308 |
+
+#### Prescriber Population Distribution Benchmarks:
+* **Active Prescribers**: **171,191** distinct HCPs prescribed Ozempic in Medicare Part D.
+* **Prescription Volume Distribution**:
+  * **Mean Fills / HCP**: **58.0** fills
+  * **Median Fills / HCP**: **36.0** fills
+  * **Maximum by Single Clinician**: **5,444** fills
+* **Financial Spend Distribution**:
+  * **Mean Drug Spend / HCP**: **\$72,293.44**
+  * **Median Drug Spend / HCP**: **\$42,843.26**
+  * **Maximum Single Clinician Spend**: **\$5,821,520.40**
+* **Standardized 30-Day Fills vs. Raw Fills**: Shows significant 90-day mail-order and retail maintenance fills, where a single prescription claim represents 3 standardized 30-day fills (e.g. 5,444 claims $\rightarrow$ 6,188.2 30-day fills).
+
 ---
 
-### 3. Open Payments Manufacturer Transparency
+### 4. Open Payments Manufacturer Transparency
 
 Cross-referencing `OP_DTL_GNRL_...csv` reveals targeted outreach by **Novo Nordisk Inc.** across key medical specialties prescribing Ozempic:
 * **Payment Categories**: Primarily concentrated in *Compensation for services other than consulting (Faculty / Speaker programs)*, *Consulting Fees*, *Food and Beverage*, and *Travel and Lodging*.
@@ -147,3 +178,4 @@ jupyter lab cms_data_preprocessing.ipynb
 
 This project is licensed under the [MIT License](LICENSE).
 Data source: Centers for Medicare & Medicaid Services (CMS) public datasets.
+
