@@ -123,37 +123,38 @@ Cross-referencing `OP_DTL_GNRL_...csv` reveals targeted outreach by **Novo Nordi
 
 ---
 
-### 5. Commercial Targeting & Decile Concentration Analysis
+### 5. Commercial Targeting & Decile Concentration Across the GLP-1 Class
 
-To test whether manufacturer promotional payments were concentrated among highest-volume clinicians, all **171,191 active Ozempic prescribers** were segmented into **10 equal-sized volume deciles** (Decile 1 = lowest claims, Decile 10 = highest claims) and joined with Open Payments records on NPI.
+To test whether manufacturer promotional payments across the **entire GLP-1 / Incretin drug class** (Ozempic, Mounjaro, Trulicity, Rybelsus, Wegovy, Victoza, Byetta) were concentrated among the class's highest prescribers, all **199,615 active GLP-1 prescribers** (totaling **19.71 Million claims** and **\$24.48 Billion** in gross drug cost) were segmented into **10 equal volume deciles** and cross-referenced against manufacturer payments from **Novo Nordisk**, **Eli Lilly**, and **AstraZeneca** (\$29.32 Million total).
 
-#### Prescriber Volume Deciles vs. Manufacturer Payments (2024)
+#### GLP-1 Prescriber Volume Deciles vs. Manufacturer Payments (2024)
 
-| Prescriber Decile | HCP Count | Claims Range | Total Claims | Total Drug Cost | Paid HCPs | % HCPs Paid | Total Pharma Payments | % of All Payments |
+| GLP-1 Decile | HCP Count | Claims Range | Total Claims | Total Drug Cost | Paid HCPs | % HCPs Paid | Total Pharma Payments | % of All Payments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **10 (Top 10%)** | 17,119 | 120 – 5,444 | 3,746,931 | \$4.85 Billion | 8,143 | **47.6%** | **\$8,015,765.70** | **63.7%** |
-| **9 (80-90%)** | 17,119 | 79 – 120 | 1,653,287 | \$2.03 Billion | 6,134 | **35.8%** | **\$1,218,262.93** | **9.7%** |
-| **8** | 17,119 | 59 – 79 | 1,168,992 | \$1.43 Billion | 5,375 | 31.4% | \$684,076.73 | 5.4% |
-| **7** | 17,119 | 45 – 59 | 884,308 | \$1.08 Billion | 4,639 | 27.1% | \$615,705.98 | 4.9% |
-| **6** | 17,119 | 36 – 45 | 689,797 | \$837.5 Million | 4,242 | 24.8% | \$401,668.68 | 3.2% |
-| **5** | 17,119 | 28 – 36 | 544,992 | \$662.3 Million | 3,666 | 21.4% | \$517,119.04 | 4.1% |
-| **4** | 17,119 | 22 – 28 | 432,040 | \$523.7 Million | 3,430 | 20.0% | \$333,543.25 | 2.7% |
-| **3** | 17,119 | 18 – 22 | 340,244 | \$408.3 Million | 2,984 | 17.4% | \$297,026.22 | 2.4% |
-| **2** | 17,119 | 14 – 18 | 264,550 | \$317.3 Million | 2,777 | 16.2% | \$177,354.13 | 1.4% |
-| **1 (Bottom 10%)** | 17,120 | 11 – 14 | 205,343 | \$242.2 Million | 2,388 | 13.9% | \$333,246.15 | 2.7% |
+| **10 (Top 10%)** | 19,961 | 215 – 9,516 | 8,063,821 | \$10.49 Billion | 12,109 | **60.7%** | **\$15,800,089.65** | **53.9%** |
+| **9 (80-90%)** | 19,961 | 138 – 215 | 3,395,574 | \$4.22 Billion | 10,094 | **50.6%** | **\$3,328,010.72** | **11.4%** |
+| **8** | 19,961 | 99 – 138 | 2,328,519 | \$2.88 Billion | 8,721 | 43.7% | \$2,264,501.02 | 7.7% |
+| **7** | 19,961 | 74 – 99 | 1,714,671 | \$2.11 Billion | 7,894 | 39.6% | \$1,791,964.93 | 6.1% |
+| **6** | 19,961 | 55 – 74 | 1,283,489 | \$1.56 Billion | 7,012 | 35.1% | \$1,502,017.79 | 5.1% |
+| **5** | 19,962 | 41 – 55 | 954,714 | \$1.15 Billion | 6,344 | 31.8% | \$1,178,600.99 | 4.0% |
+| **4** | 19,962 | 30 – 41 | 699,329 | \$829.5 Million | 5,788 | 29.0% | \$1,165,472.06 | 4.0% |
+| **3** | 19,962 | 20 – 30 | 494,031 | \$575.5 Million | 5,086 | 25.5% | \$877,042.32 | 3.0% |
+| **2** | 19,962 | 14 – 20 | 331,052 | \$380.8 Million | 4,558 | 22.8% | \$699,828.26 | 2.4% |
+| **1 (Bottom 10%)** | 19,962 | 11 – 14 | 240,869 | \$275.0 Million | 4,223 | 21.2% | \$712,942.77 | 2.4% |
 
 #### Key Analytical Takeaways:
-1. **Extreme Top-Heavy Allocation**:
-   * **Decile 10 alone** received **63.7%** of all promotional transfer dollars (\$8.02M).
-   * **Top Two Deciles Combined (Deciles 9 & 10)** captured **73.3%** of all promotional spend (\$9.23M).
-   * Nearly **half (47.6%)** of all clinicians in Decile 10 received documented transfers of value (meals, consulting, speaking honoraria).
+1. **Majority Concentration in Top Two Deciles**:
+   * **Decile 10 alone** received **53.9%** (\$15.80M) of all class promotional transfer dollars.
+   * **The Top Two Deciles Combined (Deciles 9 & 10)** captured **65.2%** (\$19.13M) of total promotional spend.
+   * **Majority of Top Clinicians Reached**: More than **60.7%** of clinicians in Decile 10 and **50.6%** in Decile 9 received documented transfers of value (meals, speaking honoraria, consulting).
+   * In contrast, Decile 1 received only **2.4%** of payments.
 
 #### Methodological Limitation (Targeting Bias vs. Causality):
-> **Critical Insight**: Strong correlation **does not imply causality**. We cannot conclude that manufacturer payments *caused* clinicians to prescribe more Ozempic. In pharmaceutical commercial strategy, brand teams and sales operations specifically target high-prescribing clinicians (KOLs and high-volume endocrinologists). High prescribers receive payments *because* they treat large diabetic patient panels, creating severe reverse causality in cross-sectional data.
+> **Critical Insight**: Strong statistical association **does not demonstrate causal impact**. We cannot conclude that manufacturer payments drove the massive volume of GLP-1 prescribing. Commercial pharmaceutical operations specifically prioritize high-volume Key Opinion Leaders (KOLs) and high-prescribing endocrinologists based on preexisting patient panels. Clinicians in top deciles receive payments *because* they manage large diabetic and metabolic patient cohorts, creating substantial targeting bias and reverse causality in cross-sectional data.
 
 #### Proposed Next Analytical Step:
-* **Difference-in-Differences (DiD) / Event Study**: Leverage longitudinal panel claims to evaluate whether an HCP's prescribing slope accelerated following their *first* documented manufacturer payment.
-* **Propensity Score Matching (PSM)**: Match paid HCPs to non-paid peers on baseline patient volume, specialty, and geography to isolate promotional lift from organic clinical adoption.
+* **Difference-in-Differences (DiD) / Event Study**: Leverage multi-year longitudinal panel claims to evaluate whether an HCP's prescribing slope for GLP-1s experienced a statistically significant acceleration following their *first* documented manufacturer payment.
+* **Propensity Score Matching (PSM)**: Construct a matched control cohort of similar HCPs (same specialty, baseline volume, and patient demographics) who received zero promotional payments to isolate promotional lift from organic clinical adoption.
 
 ---
 
