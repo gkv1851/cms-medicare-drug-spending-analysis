@@ -123,6 +123,40 @@ Cross-referencing `OP_DTL_GNRL_...csv` reveals targeted outreach by **Novo Nordi
 
 ---
 
+### 5. Commercial Targeting & Decile Concentration Analysis
+
+To test whether manufacturer promotional payments were concentrated among highest-volume clinicians, all **171,191 active Ozempic prescribers** were segmented into **10 equal-sized volume deciles** (Decile 1 = lowest claims, Decile 10 = highest claims) and joined with Open Payments records on NPI.
+
+#### Prescriber Volume Deciles vs. Manufacturer Payments (2024)
+
+| Prescriber Decile | HCP Count | Claims Range | Total Claims | Total Drug Cost | Paid HCPs | % HCPs Paid | Total Pharma Payments | % of All Payments |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10 (Top 10%)** | 17,119 | 120 – 5,444 | 3,746,931 | \$4.85 Billion | 8,143 | **47.6%** | **\$8,015,765.70** | **63.7%** |
+| **9 (80-90%)** | 17,119 | 79 – 120 | 1,653,287 | \$2.03 Billion | 6,134 | **35.8%** | **\$1,218,262.93** | **9.7%** |
+| **8** | 17,119 | 59 – 79 | 1,168,992 | \$1.43 Billion | 5,375 | 31.4% | \$684,076.73 | 5.4% |
+| **7** | 17,119 | 45 – 59 | 884,308 | \$1.08 Billion | 4,639 | 27.1% | \$615,705.98 | 4.9% |
+| **6** | 17,119 | 36 – 45 | 689,797 | \$837.5 Million | 4,242 | 24.8% | \$401,668.68 | 3.2% |
+| **5** | 17,119 | 28 – 36 | 544,992 | \$662.3 Million | 3,666 | 21.4% | \$517,119.04 | 4.1% |
+| **4** | 17,119 | 22 – 28 | 432,040 | \$523.7 Million | 3,430 | 20.0% | \$333,543.25 | 2.7% |
+| **3** | 17,119 | 18 – 22 | 340,244 | \$408.3 Million | 2,984 | 17.4% | \$297,026.22 | 2.4% |
+| **2** | 17,119 | 14 – 18 | 264,550 | \$317.3 Million | 2,777 | 16.2% | \$177,354.13 | 1.4% |
+| **1 (Bottom 10%)** | 17,120 | 11 – 14 | 205,343 | \$242.2 Million | 2,388 | 13.9% | \$333,246.15 | 2.7% |
+
+#### Key Analytical Takeaways:
+1. **Extreme Top-Heavy Allocation**:
+   * **Decile 10 alone** received **63.7%** of all promotional transfer dollars (\$8.02M).
+   * **Top Two Deciles Combined (Deciles 9 & 10)** captured **73.3%** of all promotional spend (\$9.23M).
+   * Nearly **half (47.6%)** of all clinicians in Decile 10 received documented transfers of value (meals, consulting, speaking honoraria).
+
+#### Methodological Limitation (Targeting Bias vs. Causality):
+> **Critical Insight**: Strong correlation **does not imply causality**. We cannot conclude that manufacturer payments *caused* clinicians to prescribe more Ozempic. In pharmaceutical commercial strategy, brand teams and sales operations specifically target high-prescribing clinicians (KOLs and high-volume endocrinologists). High prescribers receive payments *because* they treat large diabetic patient panels, creating severe reverse causality in cross-sectional data.
+
+#### Proposed Next Analytical Step:
+* **Difference-in-Differences (DiD) / Event Study**: Leverage longitudinal panel claims to evaluate whether an HCP's prescribing slope accelerated following their *first* documented manufacturer payment.
+* **Propensity Score Matching (PSM)**: Match paid HCPs to non-paid peers on baseline patient volume, specialty, and geography to isolate promotional lift from organic clinical adoption.
+
+---
+
 ## Technical Architecture & Performance Optimization
 
 Traditional in-memory processing (`pandas.read_csv`) fails on 16.5 GB uncompressed CSV datasets on standard machines. 
